@@ -1,3 +1,6 @@
+// Add JavaScript File
+
+
 // * initialize array  
 
 /* var fruit = [

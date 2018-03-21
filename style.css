@@ -1,3 +1,6 @@
+/* Add CSS File */
+
+
 /* include padding and border in an element's total width */
 {
     box-sizing: border-box;
@@ -22,7 +25,7 @@ ul li {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none; 
 }
 
 /* set all odd list items to a different color (zebra-stripes) */
