@@ -2,14 +2,14 @@
 
 
 /* include padding and border in an element's total width */
-{
+/* {
     box-sizing: border-box;
-}
+} */
 
 /* remove margins and padding from the list */
 ul {
-    margin: 100;
-    padding 25;
+    margin: 100px;
+    padding: 25px;
 }
 
 /* style the list items */
