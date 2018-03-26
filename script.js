@@ -151,6 +151,8 @@ CSSPropertyFilters.prototype = {
       this.addSelectors([stylesheet]);
   },
 
+  selector.push("")
+
   load: function(callback)
   {
     this.getFiltersFunc(function(patterns)
