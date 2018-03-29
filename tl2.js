@@ -31,12 +31,13 @@ function addInput() {
     // * get new data typed from the input box
     var taskBox = document.getElementById(taskBoxInput).value;
     tasks.push(taskBox);      //? Adds new element "Nap" to tasks
+
+    console.log(tasks)
 }
 
 // * Add the ability to delete (pop) from the array by creating a function
 function removeInput() {
     tasks.pop(taskBox);     //? Removes the last element ("Nap")
 }
-
 // create an array
 // load unordered list
