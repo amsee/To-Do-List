@@ -32,7 +32,7 @@ function loadUnorderedList() {
         var textnode = document.createTextNode(fruits[i]);         
 
         // Append the textnode to the li tag - <li>TextNode</li> is essentially what's happening
-        node.appendChild(textnode);                              
+        node.appendChild(textnode);                                     
 
         // Append the created <li>TextNode</li> to the <ul></ul> list from the page -> <ul><li>TextNode</li></ul>
         ul.appendChild(node);
