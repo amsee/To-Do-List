@@ -11,18 +11,18 @@ var tasks = ["Eat", "Game", "Sleep"];
 
 function loadUnorderedList(){
     var ul = document.getElementById("tasks");
-}
-// todo: HTML DOM appendChild() Method
-
-// * for every task in the tasks array...
-for (var i= 0; i < tasks.length;) i++){
+    // todo: HTML DOM appendChild() Method
     
-    // * create an li tag 
-    var node = document.createElement("LI");    //? Create a <li> node
-    var textnode = document.createTextNode("Nap"); //? Create a text node
-    node.appendChild(textnode); //? Append the text to <li>
-    document.getElementById("tasks").appendChild(node); //? Append <li> to <ul> with id="tasks"
-
+    // * for every task in the tasks array...
+    for (var i= 0; i < tasks.length;) i++){
+        
+        // * create an li tag 
+        var node = document.createElement("LI");    //? Create a <li> node
+        var textnode = document.createTextNode("Nap"); //? Create a text node
+        node.appendChild(textnode); //? Append the text to <li>
+        document.getElementById("tasks").appendChild(node); //? Append <li> to <ul> with id="tasks"
+    }
+}
 
 // * Add the ability to add (push) to the array by creating a function
 
