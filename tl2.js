@@ -27,13 +27,15 @@ function loadUnorderedList(){
 // * Add the ability to add (push) to the array by creating a function
 
 function addInput() {
-    tasks.push("Nap");      //? Adds new element "Nap" to tasks
 
+    // * get new data typed from the input box
+    var taskBox = document.getElementById(taskBoxInput).value;
+    tasks.push(taskBox);      //? Adds new element "Nap" to tasks
 }
 
 // * Add the ability to delete (pop) from the array by creating a function
 function removeInput() {
-    tasks.pop(taskBox);     //? Removes the last element ("Sleep")
+    tasks.pop(taskBox);     //? Removes the last element ("Nap")
 }
 
 // create an array
