@@ -27,19 +27,20 @@ function addInput(){
 
     // * Create <li> tag within function 
     // * Create new variable holding <li> node 
+    // ? The variasble li holds the element created within the <li>
     var li = document.createElement("LI");
 
     // * Create text node
     // * Create new variable holding new text 
+    // ? The variable holds the value of the new text created by user
     var text = document.createTextNode(value);
 
     // todo: APPEND <LI>
 
     // * Append new <li> tag 
+    // ? Append <li> tag to li with new user input
     li.appendChild(text);
-
-    document.getElementById("fruitList").appendChild(li);
+    // ? Get elememt through the id="taskbox" and append <li> tag in li
+    document.getElementById("taskbox").appendChild(li);
 
 }
-
-
