@@ -19,9 +19,27 @@ function addInput(){
     // * Append (push) variable to array
     // ? When "Add To-Do" button is clicked, run add addInput() function
     fruits.push(value);
+
+    // todo: ADD TO HTML 
+    // ? <UL> 
+    // ?        <LI>     
+    // ? </UL>
+
+    // * Create <li> tag within function 
+    // * Create new variable holding <li> node 
+    var li = document.createElement("LI");
+
+    // * Create text node
+    // * Create new variable holding new text 
+    var text = document.createTextNode(value);
+
+    // todo: APPEND <LI>
+
+    // * Append new <li> tag 
+    li.appendChild(text);
+
+    document.getElementById("fruitList").appendChild(li);
+
 }
-
-// todo: ADD TO HTML 
-
 
 
