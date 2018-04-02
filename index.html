@@ -26,7 +26,9 @@
             }
             h1 {
                 font-size: 68px;
-                font-family: monospace;
+                /* prioritize Lobster font, otherwise use Monospace font */
+                font-family: Lobster, monospace;
+                /* if the font Lobster is not available, degrade to Monospace */
             }
 
             h2 {
