@@ -41,6 +41,4 @@ function addInput(){
     // ? Append <li> tag to li with new user input
     li.appendChild(text);
     // ? Get elememt through the id="taskbox" and append <li> tag in li
-    document.getElementById("taskbox").appendChild(li);
-
-}
+    document.getElementById("taskbox").appendChild(li)
