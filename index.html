@@ -12,17 +12,37 @@
     <!-- <link rel="alternative stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- referenced document is a style sheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" rel ="stylesheet"> -->
 </head>
 <body>
     <!-- Add Container to style margins and boarder -->
     <div id="container">
-        <h1>To Do List</h1>
+        <center>
+
+        <style>
+            .color-text {
+                color: rgb(70, 68, 68);
+            }
+            h1 {
+                font-size: 68px;
+                font-family: monospace;
+            }
+
+            h2 {
+                font-size: 50px;
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            }
+        </style>
+
+        <h1 class="color-text">To Do List</h1>
 
         <input id="textbox" placeholder="Add:" />
         
         <button onclick="addInput()">Add To-Do</button>
         <!-- <button onclick="removeInput()"> Remove To-Do</button> -->
+
+        <h2>APRIL 2O18</h2>
 
         <ul id="taskBox">
             <li>
@@ -33,7 +53,7 @@
             </li>
         </ul>
 
-        
+    </center>
         
     </div>
     <script src="script.js"></script>
